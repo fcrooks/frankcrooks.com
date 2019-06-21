@@ -43,7 +43,7 @@ header {
 }
 
 h1 {
-	font-family: 'Iceberg', cursive;
+	font-family: 'Encode Sans Semi Expanded', sans-serif;
 	margin: 15px 0;
 	font-size: 3.75em;
 	font-weight: normal;
@@ -51,7 +51,7 @@ h1 {
 }
 
 h2 {
-	font-size: .75em;
+	font-size: 2em;
 	margin: -5px 0 0;
 	font-weight: normal;
 }

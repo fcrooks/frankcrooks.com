@@ -62,18 +62,17 @@
 	}
 
 	#logo {
-		float: left;
 		margin-left: 5%;
-		text-align: left;
+		text-align: center;
 		width: 45%;
 	}
 
 	h1 {
-		font-size: 2.5em;
+		font-size: 15em;
 	}
 
 	h2 {
-		font-size: 0.825em;
+		font-size: 2.5em;
 		margin-bottom: 20px;
 	}
 
@@ -81,16 +80,6 @@
 		border-bottom: ;
 		margin-bottom: 60px;
 	}
-
-
-
-
-
-
-
-
-
-
 
 
 
