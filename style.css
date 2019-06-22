@@ -18,7 +18,7 @@ a {
 }
 
 img {
-	max-width: 50%;
+	max-width: 100%;
 }
 
 h3 {
@@ -109,7 +109,7 @@ Page: About
 
 .profile-photo {
 	display: block;
-	max-width: 600px;
+	max-width: 450px;
 	margin: 0 auto 30px;
 	border-radius: 100%;
 }
@@ -180,19 +180,17 @@ body {
 	color: #000;
 }
 
-/* Black Header */
-header {
-	background: #fff;
-	border-color: green;
-}
-
 /* Nav Backround - Mobile */
 nav {
 	background: #fff;
 }
 
 /* Logo Text */
-h1, h2 {
+h1 {
+	color: #86e186;
+} 
+
+h2 {
 	color: #000;
 }
 
@@ -208,7 +206,7 @@ nav a, nav a:visited {
 
 /* Selected Nav Link */
 nav a.selected, nav a:hover {
-	color: #9B5726;
+	color: #86e186;
 }
 
 /* Gray Footer */
