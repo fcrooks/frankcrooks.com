@@ -104,14 +104,27 @@ footer {
 
 
 /*************************
+Page: Home
+*************************/
+
+.cover-img {
+	display: block;
+	max-width: 1000px;
+	margin:0 auto 10px;
+	border-radius: 0%;
+	float: center;
+}
+
+/*************************
 Page: About
 *************************/
 
 .profile-photo {
 	display: block;
-	max-width: 450px;
+	max-width: 400px;
 	margin: 0 auto 30px;
-	border-radius: 100%;
+	border-radius: 0%;
+	box-shadow: ;
 }
 
 
@@ -187,7 +200,7 @@ nav {
 
 /* Logo Text */
 h1 {
-	color: #86e186;
+	color: #D87D06;
 } 
 
 h2 {
@@ -206,7 +219,7 @@ nav a, nav a:visited {
 
 /* Selected Nav Link */
 nav a.selected, nav a:hover {
-	color: #86e186;
+	color: #D87D06;
 }
 
 /* Gray Footer */
