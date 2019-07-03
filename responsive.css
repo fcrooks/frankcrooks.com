@@ -23,8 +23,7 @@
 	*************************/
 
 	.profile-photo {
-		float: left;
-		margin: 0 5% 100px 0;
+		
 	}
 
 
@@ -32,29 +31,24 @@
 	Page: Mind
 	*************************/
 
-	#gallery li {
+	.hiking-photo {
+		
+	}
+
+	/*#gallery li {
 		width: 28.3333%;
 	}
 
 	#gallery li:nth-child(4n) {
 		clear: left;
-	}
+	}*/
 
 
 	/*************************
 	Page: Contact
 	*************************/
 
-	#primary {
-		width: 50%;
-		float: left;
-	}
-
-	#secondary {
-		width: 40%;
-		float: right;
-	}
-}
+	
 
 
 @media screen and (min-width: 660px) {
@@ -81,14 +75,13 @@
 		font-size: 12.5em;
 	}
 
-	h2 {
+	/*h2 {
 		font-size: 2.5em;
 		margin-bottom: 20px;
-	}
+	}*/
 
 	header {
-		border-bottom: ;
-		margin-bottom: 60px;
+		margin-bottom: 0px;
 	}
 
 

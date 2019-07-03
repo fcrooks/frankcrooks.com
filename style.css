@@ -17,12 +17,22 @@ a {
 	text-decoration: none;
 }
 
-img {
-	max-width: 100%;
+h2 {
+	font-size: 2.5em;
+	margin: 10px 0px -20px 0px;
+	font-weight: 300;
 }
 
 h3 {
-	margin: 0 0 1em 0;
+	font-size: 1.4em;
+	font-weight: 500;
+	margin: 30px 0px -20px 0px;
+}
+
+p {
+	font-size: 1.4em;
+	font-weight: 100;
+	margin: 30px 0px 40px 0px; 
 }
 
 
@@ -50,11 +60,6 @@ h1 {
 	line-height: 0.8em;
 }
 
-h2 {
-	font-size: 2em;
-	margin: -5px 0 0;
-	font-weight: 100;
-}
 
 
 /*************************
@@ -71,7 +76,7 @@ nav {
 nav ul {
 	list-style: none;
 	margin: 0 10px;
-	padding: 0;
+	padding: 0 0 40px;
 }
 
 nav li {
@@ -109,7 +114,11 @@ Page: Home
 
 .cover-img {
 	display: block;
-	width: 100%;
+	width: 80%;
+	max-width: 600px;
+	margin: 0 auto 0px;
+	padding: 40px 40px;
+	margin-top: 0px;
 }
 
 /*************************
@@ -118,10 +127,11 @@ Page: About
 
 .profile-photo {
 	display: block;
-	max-width: 300px;
-	margin-left: auto; 
-	margin-right: auto; 
-	width: 50%;
+	width: 60%;
+	max-width: 375px;
+	margin: 0 auto 0px;
+	padding: 40px 40px;
+	margin-top: -40px;
 }
 
 
@@ -131,10 +141,11 @@ Page: Mind
 
 .hiking-photo {
 	display: block;
-	max-width: 1000px;
-	margin: auto;
-	width: 50%;
-	padding: 0 0 30px 0;
+	width: 88%;
+	max-width: 940px;
+	margin: 0 auto 50px;
+	box-shadow: 5px 10px 8px #888888;
+	border: 1px solid black;
 }
 
 
@@ -144,9 +155,10 @@ PAGE: Contact
 
 .contact-info {
 	list-style: none;
-	padding: 0;
-	margin: 0;
-	font-size: 0.9em;
+	padding: 10px 0px 20px 0px;
+	margin: 70px 0px 20px 0px;
+	font-size: 01.25em;
+	font-weight: 100
 }
 
 .contact-info a {
@@ -156,6 +168,10 @@ PAGE: Contact
 	background-size: 20px 20px;
 	padding: 0 0 0 30px;
 	margin: 0 10px;
+}
+
+.contact-info li.linkedin a {
+	background-image: url('img/linkedin-logos/linkedin1.png');
 }
 
 .contact-info li.phone a {
@@ -184,16 +200,25 @@ nav {
 
 /* Logo Text */
 h1 {
-	color: black;
+	color: #000;
 } 
 
 h2 {
 	color: #000;
 }
 
+h3 {
+	color: #D87D06;
+}
+
 /* Links */
 a {
 	color: #000;
+}
+
+/*Contact*/
+.contact-info a{
+	color: #D87D06;
 }
 
 /* Nav Link */
