@@ -23,18 +23,28 @@ h2 {
 	font-weight: 300;
 }
 
+.personal-qualities {
+	margin-bottom: 20px;
+}
+
+.interest {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
 h3 {
 	font-size: 1.4em;
 	font-weight: 500;
 	margin: 30px 0px -20px 0px;
 }
 
+
+
 p {
 	font-size: 1.4em;
 	font-weight: 100;
 	margin: 30px 0px 40px 0px; 
 }
-
 
 /*************************
 HEADING
@@ -89,6 +99,51 @@ nav a {
 }
 
 
+
+/*************************
+Buttons
+*************************/
+
+.expand {
+	color: #D87D06;
+	background: #fff;
+	margin-top: 20px;
+	border: 0;
+	padding: 0;
+	outline: 0;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	font-size: 1.4em;
+
+}
+
+
+.expand:hover {
+  cursor: pointer;
+  color: #000;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px 
+  			rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 
+  			0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+.fas {
+	margin-left: 10px;
+}
+
+
+
+#continue-reading {
+	display: flex;
+    justify-content: center;
+    font-size: .75em;
+    margin-bottom: 40px;
+}
+
+
+
 /*************************
 FOOTER
 *************************/
@@ -97,14 +152,25 @@ footer {
 	font-size: 0.75em;
 	text-align: center;
 	clear: both;
-	padding-top: 50px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	color: #666;
+	margin-top: 100px;
 }
 
-.social-icon {
-	width: 80px;
-	height: 20px;
-	margin: 0 5px;
+.green-web {
+	display: block;
+	width: 50%;
+	max-width: 200px;
+	margin: 0 auto 0px;
+	padding: 40px 40px;
+	margin-top: 0px;
+	margin-bottom: -50px;
+}
+
+.f-contact {
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 
@@ -148,26 +214,57 @@ Page: Mind
 	border: 1px solid black;
 }
 
+.p-background {
+	margin-bottom: -10px;
+}
+
+.p-conclusion {
+	margin-bottom: -10px;
+}
+
+.headback {
+	color: #000;
+}
+
+.headcon {
+	color: #000;
+	margin-top: 40px;
+}
+
 
 /*************************
 PAGE: Contact
 *************************/
 
+.details {
+	margin: 70px 0px -25px 0px;
+}
+
 .contact-info {
 	list-style: none;
 	padding: 10px 0px 20px 0px;
-	margin: 70px 0px 20px 0px;
+	margin: 50px 0px 125px 0px;
 	font-size: 01.25em;
 	font-weight: 100
 }
 
 .contact-info a {
 	display: block;
-	min-height: 20px;
+	min-height: 35px;
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
-	padding: 0 0 0 30px;
-	margin: 0 10px;
+	padding: 0 0 0 40px;
+	margin: 0 auto;
+}
+
+.contact-info a:hover {
+	cursor: pointer;
+	color: #000;
+	font-size: 1em;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px 
+  			rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 
+  			0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
 
 .contact-info li.linkedin a {

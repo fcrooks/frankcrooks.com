@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="responsive.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	</head>
 	<body>
 		<header>
@@ -27,28 +28,48 @@
 		<div id="wrapper">
 			<section>
 				<h2>At a Glance</h2>
-				<p> The world is changing rapidly, and there’s never been a better opportunity to make an impact. Whether it be as part of an established organization, a small team, or through my own entrepreneurial endeavors, I’m passionate about contributing to meaningful projects and important causes. With a professional background in operations, I’ve increasingly branched out to cultivate a variety of interests in many different fields. I’m constantly adding useful skills and knowledge and hope to combine it all to solve some of the world’s most critical problems.</p>
-				<h2>Areas of Interest</h2>
-				<h3>Education</h3> <p>It’s not about just throwing more money into public schools or cutting tuition costs. Education needs a radical redesign for the 21st century. I’m interested in creating universal access to information and encouraging holistic, lifelong learning.</p>  
-				<h3>Philanthropy</h3> <p>In order to do good in the world, we have to be better than the stereotypically bloated and bureaucratic nonprofit. The cause needs to be objectively valuable, and the organization or investor should be as transparent as possible. The impact and effectiveness should be thoroughly supported by evidence and reason.</p> 
-				<h3>Emerging Technology</h3> <p>From innovative biomaterials and sustainable energy to AI, blockchain, and the future of dispersed collaboration, no other sector has as much potential for both positive and negative results. It’s our challenge, and obligation, to use it for the benefit of humankind.</p>     
-				<h3>Public Benefit Corporations</h3> <p>If an organization cannot produce their products and services in an ethical manner then it should cease to exist. The conveniences of cheap material goods are simply not worth the exploitation of our people and planet. Many alternatives already exist and with increased demand more replacements will be created. We can hold organizations to a higher standard with the choices we make everyday.</p>
-				<h2>Personality Traits</h2>
-				<h3>Genuine</h3>
-				<p>To be genuine is to be frank. Unfailingly open, honest, and straight-forward, of high integrity and strong character. A powerful quality that builds trust and forges deeper relationships. To be <i>Frank</i> is to be genuine.</p>    
-				<h3>Thoughtful</h3>
-				<p>Hindsight is 20/20, but that doesn’t mean foresight has to be 20/200. By attempting to view the world from many different perspectives and taking the time to consider all available information, we can greatly enhance the quality of the picture and make better decisions. In the long run, this saves time, effort, and valuable resources.</p>  
-				<h3>Empathetic</h3>
-				<p>Normally, people tend to focus inward, framing events and interactions around themselves as if they’re the main character in the film, Me! But outward attention picks up on hidden details, leads to less bias and more accurate comprehension, and improves overall social intelligence.</p>
-				<p>But there is another, possibly greater benefit. In practicing empathy, the mind builds models of unfamiliar experiences. When imagined in greater detail, these experiences become more clearly understood and the models more useful. The result is a virtual atlas that can be referenced and used to successfully navigate uncharted territory. We can better prepare ourselves to cope with difficult new situations and deal with future adversity.
-				</p>
-				  
-				
+				<p> The world is changing rapidly, and there’s never been a better opportunity to make an impact. Whether it be as part of an established organization, a small team, or through my own entrepreneurial endeavors, I’m passionate about contributing to and creating meaningful projects. While my professional background is in operations, it’s hardly an apt descriptor of my varied experience and skill set. I have an intense interest in, and rigorous approach to adding knowledge and expertise from many different fields, and it’s my dream to steadily combine it all in an ambitious effort to solve some of the world’s most critical problems.</p>
+				<h2 class="personal-qualities">Personal Qualitites</h2>
+				<button onclick="genuine()" class="expand">Genuine<i class="fas fa-angle-down"></i></button>
+				<div id="genuineText" style="display: none">
+					<p>To be genuine is to be frank. Unfailingly open, honest, and straightforward, of high integrity and strong character. It’s a powerful quality that builds trust and forges deeper relationships. I place great value on this in myself and in others.</p>
+				</div>    
+				<button onclick="thoughtful()" class="expand">Thoughtful<i class="fas fa-angle-down"></i></button>
+				<div id="thoughtfulText" style="display: none">
+					<p>Deadlines and impatience tend to dictate our lives, but we mustn't ignore the bigger picture. I’m able to make consistently good decisions because I take the time to consider all of the relevant information and put in the work required to hold a strong opinion. It’s often necessary to be decisive, but those with the restraint to let the full story develop will enjoy superior results.</p> 
+				</div> 
+				<button onclick="empathetic()" class="expand">Empathetic<i class="fas fa-angle-down"></i></button>
+				<div id="empatheticText" style="display: none">
+					<p>Normally, people tend to focus inward, framing events and interactions around themselves as if they’re the protagonist in a novel. But outward attention enhances social intelligence by revealing hidden details in subtle gestures like body language and tone of voice. This leads to a more thorough comprehension of human behavior and stifles the trivial aspects of most quarrels.<br></br>
+					But there is another, more compelling benefit. In empathizing with other people, the mind builds models of unfamiliar experiences, much as if we had lived through them ourselves. When imagined in greater detail, these experiences become more clearly understood and the models more useful. The result is a virtual atlas that can be referenced and utilized throughout life to successfully navigate uncharted territory. In practicing this skill, I am better prepared to cope with difficult new situations and deal with future adversity.
+					</p>
+				</div>
+				<h2 class="interest">Areas of Interest</h2>
+				<button onclick="education()" class="expand">Education<i class="fas fa-angle-down"></i></button>
+				<div id="educationText" style="display: none"> 
+					<p>There are numerous forms of intelligence and learning styles, but more often than not, some of the most creative minds become alienated and discouraged by the traditional education system. This is a travesty and an enormous waste of potential. I want to redefine what success looks like in education and develop ways to empower generations of well-rounded, lifelong learners. As an advocate for universal access to information, I’m also an avid user of free online courses. I’ve seen first hand their advantages and limitations, but I’m encouraged by the progress and excited about the opportunity for exploration that this space is creating.</p>
+				</div>  
+				<button onclick="philanthropy()" class="expand">Philanthropy<i class="fas fa-angle-down"></i></button>
+				<div id="philanthropyText" style="display: none"> 
+					<p>Amid fervent debate over high-profile donors, lack of impact, as well as outright corruption, people really just want the peace of mind that they’re supporting a quality organization that is actually solving worthwhile problems. While some groups are surely more questionable than others, there’s a growing trend toward highly transparent, highly effective projects that are thoroughly evaluated and supported by evidence. Combined with rapid innovation across a number of different industries, these small groups are starting to accomplish more with much less than their bureaucratic predecessors.</p>
+				</div> 
+				<button onclick="emergingTechnology()" class="expand">Emerging Technology<i class="fas fa-angle-down"></i></button>
+				<div id="emergingTechnologyText" style="display: none"> 
+					<p>From innovative biomaterials and sustainable energy to AI, blockchain, and the future of dispersed collaboration, no other sector has such potential for both positive and negative results. It’s our challenge, and obligation, to use the coming explosion of new technologies for the benefit of humankind.</p>
+				</div>     
+				<button onclick="publicBenefitCorporations()" class="expand">Public Benefit Corporations
+				<i class="fas fa-angle-down"></i></button>
+				<div id="publicBenefitCorporationsText" style="display: none"> 
+					<p>If a business cannot produce their products and services in an ethical manner then it should cease to exist. The conveniences of cheap material goods are simply not worth the exploitation of our people and planet. Many alternatives are already available, but demand must increase in order to realize any significant breakthrough. We can hold organizations to a higher standard with the choices that we make every day.</p>
+				</div>	
 			</section>
 			<footer>
+				<a href=https://www.thegreenwebfoundation.org target="_blank">
+				<img src="https://api.thegreenwebfoundation.org/greencheckimage/www.frankcrooks.com" alt="This website is hosted Green - checked by thegreenwebfoundation.org" class="green-web"></a>
 				<p>&copy; 2019 Frank Crooks</p>
 			</footer>
 		</div>
+		<script src="script.js"></script>
 	</body>
 </html>
 
