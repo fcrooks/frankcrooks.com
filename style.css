@@ -243,7 +243,7 @@ PAGE: Contact
 	padding: 10px 0px 20px 0px;
 	margin: 50px 0px 125px 0px;
 	font-size: 01.25em;
-	font-weight: 100
+	font-weight: 400
 }
 
 .contact-info a {
@@ -264,6 +264,14 @@ PAGE: Contact
   			rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 
   			0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
+
+.far {
+	color: #000;
+	min-height: 35px;
+	margin-right: 21.5px;
+	margin-left: -38px;
+}
+
 
 .contact-info li.linkedin a {
 	background-image: url('img/linkedin1.png');
