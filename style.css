@@ -273,6 +273,10 @@ PAGE: Contact
 }
 
 
+.contact-info li.resume a {
+	background-image: url('img/resume.png');
+}
+
 .contact-info li.linkedin a {
 	background-image: url('img/linkedin1.png');
 }
@@ -284,6 +288,7 @@ PAGE: Contact
 .contact-info li.email a {
 	background-image: url('img/email_logo.png');
 }
+
 
 
 /*************************
