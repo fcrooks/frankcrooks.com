@@ -64,7 +64,7 @@ header {
 }
 
 h1 {
-	font-family: 'Gugi', cursive;
+	font-family: 'Gugi';
 	margin: 15px 0;
 	font-size: 3em;
 	font-weight: normal;
@@ -265,12 +265,7 @@ PAGE: Contact
   			0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
 
-.far {
-	color: #000;
-	min-height: 35px;
-	margin-right: 21.5px;
-	margin-left: -38px;
-}
+
 
 
 .contact-info li.resume a {
@@ -282,7 +277,7 @@ PAGE: Contact
 }
 
 .contact-info li.phone a {
-	background-image: url('img/phone-icon.png');
+	background-image: url('img/phone-icon1.png');
 }
 
 .contact-info li.email a {
