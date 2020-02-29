@@ -209,8 +209,16 @@ Page: Projects
   padding: 0 5%;
 }
 
+.h_wrapper h2 {
+	margin-top: 2em;
+}
+
+.h_wrapper p {
+	margin: 35px 0 75px 0;
+}
+
 .p_wrapper {
-  max-width: 1200px;
+  max-width: 2000px;
   margin: 0 auto;
   padding: 0 5%;
 }
@@ -225,7 +233,7 @@ img {
 
 .card {
 	background: white;
-	margin-bottom: 10px;	
+	margin-bottom: 4em;
 	border: none;
 }
 
