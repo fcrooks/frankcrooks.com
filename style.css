@@ -204,6 +204,44 @@ Page: Projects
 *************************/
 
 
+
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .h_wrapper {
   max-width: 940px;
   margin: 0 auto;
@@ -226,7 +264,8 @@ img {
 
 .card {
 	background: white;
-	margin-bottom: 2em;	
+	margin-bottom: 10px;	
+	border: none;
 }
 
 .card a {
@@ -239,18 +278,24 @@ img {
 }
 
 .card-content {
-	padding: 1.4em;
+	padding: 10px;
+	margin-bottom: 10px;
 }
 
 .card-content h2 {
 	margin-top: 0;
 	margin-bottom: .5em;
 	font-weight: bold;
+	font-size: 1rem;
 }
 
 .card-content p {
-	font-size: 80%;
+	font-size: 100%;
+	margin-bottom: 1.5em;
+  	color: #898989;
 }
+
+
 
 /* Flexbox stuff */
 
@@ -303,6 +348,7 @@ img {
 	text-align: center;
 	cursor: pointer;
 	width: 100%;
+
 }
 
 .thumb_button:hover {
@@ -310,6 +356,7 @@ img {
   	cursor: pointer;
   	pointer-events: auto;
 }
+
 
 
 
