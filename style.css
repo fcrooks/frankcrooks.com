@@ -203,45 +203,6 @@ Page: About
 Page: Projects
 *************************/
 
-
-
-/*--------------------------------------------------------------
-Typography
---------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .h_wrapper {
   max-width: 940px;
   margin: 0 auto;
@@ -358,6 +319,60 @@ img {
 }
 
 
+
+/*************************
+PAGE: Contact
+*************************/
+
+.details {
+	margin: 70px 0px -25px 0px;
+}
+
+.contact-info {
+	list-style: none;
+	padding: 10px 0px 20px 0px;
+	margin: 50px 0px 125px 0px;
+	font-size: 01.25em;
+	font-weight: 400
+}
+
+.contact-info a {
+	display: block;
+	min-height: 35px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 40px;
+	margin: 0 auto;
+}
+
+.contact-info a:hover {
+	cursor: pointer;
+	color: #000;
+	font-size: 1em;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px 
+  			rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 
+  			0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+
+
+
+.contact-info li.resume a {
+	background-image: url('img/resume.png');
+}
+
+.contact-info li.linkedin a {
+	background-image: url('img/linkedin1.png');
+}
+
+.contact-info li.phone a {
+	background-image: url('img/phone-icon1.png');
+}
+
+.contact-info li.email a {
+	background-image: url('img/email_logo.png');
+}
 
 
 
