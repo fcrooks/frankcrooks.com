@@ -200,34 +200,173 @@ Page: About
 
 
 /*************************
-Page: Mind
+Page: Projects
 *************************/
 
-.hiking-photo {
+.h_wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.h_wrapper h2 {
+	margin-top: 2em;
+}
+
+.h_wrapper p {
+	margin: 35px 0 75px 0;
+}
+
+.p_wrapper {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+img {
 	display: block;
-	width: 88%;
-	max-width: 940px;
-	margin: 0 auto 50px;
-	box-shadow: 5px 10px 8px #888888;
-	border: 1px solid black;
+	border: 0;
+	width: 100%;
+	height: auto;
 }
 
-.p-background {
-	margin-bottom: -10px;
+
+.card {
+	background: white;
+	margin-bottom: 4em;
+	border: none;
 }
 
-.p-conclusion {
-	margin-bottom: -10px;
+.card a {
+	color: black;
+	text-decoration: none;
 }
 
-.headback {
-	color: #000;
+.card a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
 }
 
-.headcon {
-	color: #000;
-	margin-top: 40px;
+.card-content {
+	padding: 10px;
+	margin-bottom: 10px;
 }
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.card-content p {
+	font-size: 100%;
+	margin-bottom: 1.5em;
+  	color: #898989;
+}
+
+
+
+/* Flexbox stuff */
+
+@media screen and (min-width: 40em) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: -1em;
+    }
+
+    .card {
+        display: flex;
+        flex: 0 1 calc(50% - .5em);
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .cards {
+        margin-top: inherit;
+    }
+    
+    .card {
+        flex: 0 1 calc(25% - 1em);
+        margin-bottom: 2em;
+    }
+}
+
+.centered {
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+@media screen and (min-width: 52em) {
+    .centered {
+        max-width: 52em;
+    }
+}
+
+
+
+.thumb_button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #D87D06;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+
+}
+
+.thumb_button:hover {
+  	background-color: #555;
+  	cursor: pointer;
+  	pointer-events: auto;
+}
+
+
+
+/*************************
+Page: Notebooks
+*************************/
+
+.back_button {
+	text-align: left;
+	font-size: 2em;
+	margin-left: 50px;
+}
+
+.viz {
+	max-width: 1000px;
+	max-height: 2000px;
+	margin: 50px auto;
+	padding: 0 5%;
+}
+
+.tableauPlaceholder {
+	width: 100%;
+	height: 2000px;
+}
+
+.summary {
+	max-width: 1000px;
+	margin: 50px auto;
+	padding: 0 5%;
+}
+
+.notebook {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+.nb_footer {
+	height: 50px;
+}
+
+
 
 
 /*************************
@@ -276,6 +415,10 @@ PAGE: Contact
 	background-image: url('img/linkedin1.png');
 }
 
+.contact-info li.github a {
+	background-image: url('img/GitHub.png');
+}
+
 .contact-info li.phone a {
 	background-image: url('img/phone-icon1.png');
 }
@@ -319,6 +462,10 @@ a {
 	color: #000;
 }
 
+.source {
+	color: #D87D06;
+}
+
 
 
 
@@ -335,6 +482,7 @@ nav a, nav a:visited {
 /* Selected Nav Link */
 nav a.selected, nav a:hover {
 	color: #D87D06;
+	text-decoration-line: none;
 }
 
 /* Gray Footer */
@@ -349,7 +497,6 @@ footer {
 .center {
 	color: #D87D06;
 }
-
 
 
 
