@@ -12,28 +12,43 @@
 	</head>
 	<body>
 		<header>
-			<a href="index.html" id="logo">
-			<h1>FRANK CROOKS</h1>
-			</a>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="projects.html" class="selected">Projects</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
+			<nav class="back_button">
+        <a href="projects.html">< Back</a>
 			</nav>
 		</header>
-		<div id="wrapper">
-			<section>
-				<img src="img/Visualizations/Causes_of_Death_Viz.png" alt="Causes of Death Chart">		
-			</section>
-			<section id="notebook">
-				
+		<div class="viz">
+			<div class='tableauPlaceholder' id='viz1583176174475' style='position: relative'>
+        <noscript><a href='https:&#47;&#47;public.tableau.com&#47;views&#47;Top_Causes_of_Death_U_S_&#47;Sheet1?:display_count=y&amp;publish=yes&amp;:origin=viz_share_link'>
+          <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;Top_Causes_of_Death_U_S_&#47;Sheet1&#47;1_rss.png' style='border: none' />
+        </a></noscript><object class='tableauViz'  style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' />
+          <param name='name' value='Top_Causes_of_Death_U_S_&#47;Sheet1' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;Top_Causes_of_Death_U_S_&#47;Sheet1&#47;1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+          <param name='filter' value='publish=yes' />
+        </object>
+      </div>
+    </div>
 
 
+     <div class="summary">
+      <h2>Summary</h2>
+      <p>This is a study on the leading causes of death in the United States from 1999 - 2017. I used a dataset focused on the U.S. but the relevant information is applicable to the rest of the world. Very clearly, the top two causes are heart disease and cancer. In fact, those two alone account for more than the rest of the top ten combined.</p>
+      <br>
+      <p>Data Source: <a href="https://healthdata.gov/dataset/nchs-leading-causes-death-united-states/resource/f4a0732f-784d-4038-8aa0-2ece1a4ddf32#{view-graph:{graphOptions:{hooks:{processOffset:{},bindEvents:{}}}},graphOptions:{hooks:{processOffset:{},bindEvents:{}}}}" class="source" target="_blank">healthdata.gov</a></p>
+    </div>
+			
 
-
+      <div class="notebook">
+<title>Top_Causes_of_Death_U.S.</title>
 <style type="text/css">
     /*!
 *
@@ -13939,15 +13954,25 @@ dtype: int64</pre>
     </div>
   </div>
 
-			</section>
-			<footer>
-				<a href=https://www.thegreenwebfoundation.org target="_blank">
+    </div>
+
+
+			<footer class="nb_footer">
+				<!--<a href=https://www.thegreenwebfoundation.org target="_blank">
 				<img src="https://api.thegreenwebfoundation.org/greencheckimage/www.frankcrooks.com" alt="This website is hosted Green - checked by thegreenwebfoundation.org" class="green-web"></a>
-				<p>&copy; 2020 Frank Crooks</p>
+				<p>&copy; 2020 Frank Crooks</p>-->
 			</footer>
-		</div>
-		<script src="script.js"></script>
+		
+		<script type='text/javascript'>
+      var divElement = document.getElementById('viz1583176174475');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width='100%';vizElement.style.height='500px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="script.js"></script>
 	</body>
 </html>
